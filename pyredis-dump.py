@@ -113,6 +113,7 @@ def options2kw(options):
   else:
     kw['host']=options.host
     kw['port']=options.port
+    kw['ssl']=True
   if options.password: kw['password']=options.password
   return kw
 
